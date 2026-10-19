@@ -140,6 +140,7 @@ export function Sidebar({ children }: { children?: ReactNode }) {
           which is the user's orientation anchor and truncates otherwise.
           Search is the first nav item below instead. */}
       <div className="flex h-(--sz-60px) shrink-0 items-center gap-1 px-3">
+        <img src="/brand/seneca-mark.png" alt="SENECA SSA" className="size-7 shrink-0 rounded-md" />
         <SidebarCompanyMenu />
       </div>
 
