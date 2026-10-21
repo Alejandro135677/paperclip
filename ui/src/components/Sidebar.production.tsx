@@ -120,6 +120,7 @@ export function Sidebar() {
           which is the user's orientation anchor and truncates otherwise.
           Search is the first nav item below instead. */}
       <div className="flex items-center gap-1 px-3 h-12 shrink-0">
+        <img src="/brand/seneca-mark.png" alt="SENECA SSA" className="size-7 shrink-0 rounded-md" />
         <SidebarCompanyMenu />
       </div>
 
